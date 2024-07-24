@@ -16,10 +16,10 @@ interface Methods {
 }
 
 const userSchema = new Schema<UserDocument, {}, Methods>({
-    id: {
-        type: String,
-        required: true,
-    },
+    // id: {
+    //     type: String,
+    //     required: true,
+    // },
     email: {
         type: String,
         required: true,
